@@ -1,6 +1,7 @@
 DOMAIN-SUFFIX,unity.com
 DOMAIN-SUFFIX,assetstore.unity.com
 DOMAIN-SUFFIX,unity3d.com
+DOMAIN-SUFFIX,dl.google.com
 DOMAIN-SUFFIX,core.cloud.unity
 DOMAIN-KEYWORD,unitysoftware
 DOMAIN-KEYWORD,license.unity3d.com
@@ -13,4 +14,5 @@ DOMAIN-KEYWORD,api2.amplitude.com
 DOMAIN-KEYWORD,sharepoint.com
 DOMAIN-KEYWORD,fastly.net
 DOMAIN-KEYWORD,digicert.com
+
 
