@@ -1,0 +1,15 @@
+proxies:
+  - name: "🔁 SOCKS5中转链"
+    type: trojan
+    server: pzdcs9snh88me5dv.yinyun01.com
+    port: 9443
+    password: 5a2f37d5a5cdef80
+    sni: 2026.yinyun2026.com
+    skip-cert-verify: true
+    udp: true
+    forward-proxy:
+      type: socks5
+      server: 51.241.156.62
+      port: 50101
+      username: zhangxiaokuns
+      password: 6nJuj5Cbq6
