@@ -1,0 +1,54 @@
+# NAME: Google Antigravity CLI (agy)
+# UPDATED: 2026-09-26
+# FORMAT: subconverter / Surge-classical .list
+# NOTE: Policy group is assigned by ruleset= in the conversion template.
+#       Do not append PROXY or another policy name to these lines.
+
+# Primary model, quota and account APIs
+# daily-cloudcode-pa is confirmed by local agy 1.2.11 runtime logs;
+# cloudcode-pa is the production/override backend.
+DOMAIN,daily-cloudcode-pa.googleapis.com
+DOMAIN,cloudcode-pa.googleapis.com
+
+# Version-, account- or feature-dependent Google AI backends
+DOMAIN,antigravity-pa.googleapis.com
+DOMAIN,antigravity.googleapis.com
+DOMAIN,cloudaicompanion.googleapis.com
+DOMAIN,aicode.googleapis.com
+DOMAIN,generativelanguage.googleapis.com
+
+# Google OAuth, identity and account validation
+DOMAIN,accounts.google.com
+DOMAIN,oauth2.googleapis.com
+DOMAIN,www.googleapis.com
+DOMAIN,lh3.googleusercontent.com
+DOMAIN,developers.google.com
+
+# Supporting assets used by browser-based Google Sign-In
+DOMAIN,apis.google.com
+DOMAIN-SUFFIX,gstatic.com
+
+# Feature flags and telemetry
+DOMAIN,antigravity-unleash.goog
+DOMAIN,play.googleapis.com
+
+# Product site, OAuth callback, installer and self-updater
+DOMAIN-SUFFIX,antigravity.google
+DOMAIN,antigravity-cli-auto-updater-974169037036.us-central1.run.app
+DOMAIN,storage.googleapis.com
+
+# Optional Remote Control
+DOMAIN-SUFFIX,antigravity.google.com
+
+# Optional enterprise/integration paths
+DOMAIN,docs.googleapis.com
+DOMAIN,iamcredentials.googleapis.com
+
+# Optional browser automation driver download
+DOMAIN,playwright.azureedge.net
+
+# Emergency broad fallbacks (intentionally disabled; enable only if a future
+# agy release moves to an undocumented Google host):
+# DOMAIN-SUFFIX,googleapis.com
+# DOMAIN-SUFFIX,googleusercontent.com
+# DOMAIN-SUFFIX,google.com
